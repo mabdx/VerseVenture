@@ -1,0 +1,3 @@
+FIXED: 1- the loggedin userid is not set properly sometimes.
+2- the update draft page sends null data to server
+FIXED: 3- in edit user profile, the image is null in router
