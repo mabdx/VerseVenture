@@ -2,7 +2,7 @@ const config = {
   Database: {
     host: "localhost",
     user: "root",
-    password: "edinburgh915",
+    password: "#",
     database: "WebProject",
   },
   listPerPage: 10,
