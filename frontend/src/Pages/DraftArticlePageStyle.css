@@ -1,0 +1,90 @@
+Global styles
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Article container */
+  .article-container {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .Article-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFF !important;
+  }
+.delete-article-button {
+       padding: 10px 20px;
+       font-size: 1rem;
+       border-radius: 5px;
+       border: none;
+       cursor: pointer;
+       background-color: #2C0000;
+       /* Red */
+       color: #FFF;
+       margin-bottom: 1rem;
+ }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+  }
+  
+  /* Edit mode form */
+  .edit-mode form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Form label */
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Form input, textarea, select */
+  .form-input,
+  .form-textarea,
+  .form-select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    width: 100%;
+  }
+  
+  /* Form buttons */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* View mode */
+  .view-mode {
+    margin-top: 20px;
+  }
+  
+  /* Edit button */
+  .edit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF6969; /* Red */
+    color: #FFF;
+  }
+  
+  /* Edit button hover */
+  .edit-button:hover {
+    opacity: 0.8;
+  }
+  

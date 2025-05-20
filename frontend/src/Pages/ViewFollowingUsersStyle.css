@@ -1,0 +1,67 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Following users container */
+  .following-users-container {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6c5e46; /* Dark background */
+  }
+  
+  /* Following users heading */
+  .following-users-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+  }
+  
+  /* User list */
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* User item */
+  .user-item {
+    margin-bottom: 20px;
+  }
+  
+  /* User link */
+  .user-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Username */
+  .username {
+    font-weight: bold;
+  }
+  
+  /* User ID */
+  .user-id {
+    margin-top: 5px;
+  }
+  
+  /* Profile picture */
+  .profile-picture {
+    margin-top: 5px;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5px;
+  }
+  

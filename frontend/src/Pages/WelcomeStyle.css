@@ -1,0 +1,59 @@
+/* Welcome container */
+.welcome-container {
+  max-width: 800px;
+  min-height: 80vh;
+  margin: 5rem auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Website image */
+.website-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* Welcome content */
+.welcome-content {
+  text-align: center;
+}
+
+/* Welcome heading */
+.welcome-heading {
+  font-size: 1rem;
+}
+
+/* Welcome description */
+.welcome-description {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Welcome buttons */
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Welcome button */
+.welcome-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: #2C0000; /* Green */
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Welcome button hover effect */
+.welcome-button:hover {
+  opacity: 0.8;
+}

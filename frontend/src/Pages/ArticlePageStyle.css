@@ -1,0 +1,222 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Article Page container */
+  .article-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    min-height: 100vh;
+    margin: 2.5rem 20rem;
+    border-radius: 10px;
+  }
+  
+  /* Article Page title */
+  .article-page-title {
+    font-size: 2rem;
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    margin-bottom: 20px;
+  }
+  
+  /* Like and Unlike buttons */
+
+  
+  /* Delete button */
+  .delete-article-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #2C0000; /* Red */
+    color: #FFF;
+    margin-bottom: 1rem;
+  }
+  .like-button,
+  .unlike-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #4CAF50; /* Green */
+    color: #FFF;
+  }
+
+.like-button-container{
+    margin: 10px 0;
+
+}
+
+.article-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.Username-data{
+  color: #000000;
+}
+
+
+  /* Article info */
+  .article-info {
+    margin-bottom: 10px;
+  }
+  
+  /* Article image */
+  .article-image {
+    max-width: 100%;
+    max-height: 20%;
+    margin-bottom: 20px;
+  }
+  
+  /* User profile section */
+  .user-profile-info {
+    margin-top: 20px;
+  }
+  
+  /* Profile link */
+  .profile-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  /* Profile picture */
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  /* Comments section */
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  /* Comments title */
+  .comments-title {
+    font-size: 1.5rem;
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px;
+  }
+  
+  /* Comment list */
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Comment item */
+  .comment-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Delete comment button */
+  .delete-comment-button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #2C0000; /* Red */
+    color: #FFF;
+  }
+  
+  /* Add comment section */
+  .add-comment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Comment input */
+  .comment-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  /* Add comment button */
+  .add-comment-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #2C0000; /* Green */
+    color: #FFF;
+  }
+  
+
+  /* Comment item */
+.comment-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Comment content */
+.comment-content {
+  margin-bottom: 10px;
+}
+
+/* Comment details */
+.comment-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Comment actions */
+.comment-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* Delete comment button */
+.delete-comment-button {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #2C0000; /* Red */
+  color: #FFF;
+  margin-left: 10px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.article-category{
+  font-weight: bold;
+}

@@ -1,0 +1,84 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Liked Articles container */
+  .liked-articles-container {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+  }
+  
+  /* Liked Articles heading */
+  .liked-articles-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Liked Articles list */
+  .liked-articles-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Article item */
+  .article-item {
+    margin-bottom: 20px;
+    background-color: bisque;
+  }
+  
+  /* Article link */
+  .article-link {
+    text-decoration: none;
+    color: #333; /* Dark gray */
+  }
+  
+  /* Article title */
+  .article-title {
+    margin-bottom: 5px;
+    padding: 0;
+  }
+  
+  /* Author link */
+  .author-link {
+    text-decoration: none;
+    color: #007bff; /* Blue */
+  }
+  
+  /* Author name */
+  .author {
+    margin-bottom: 5px;
+  }
+  
+  /* Date posted */
+  .date-posted {
+    margin-bottom: 5px;
+  }
+  
+  /* Category */
+  .category {
+    margin-bottom: 5px;
+  }
+  
+  /* User ID */
+  .user-id {
+    margin-bottom: 5px;
+  }
+  
+  /* Article ID */
+  .article-id {
+    margin-bottom: 5px;
+  }
+  
+  /* Article separator */
+  .article-separator {
+    border: none;
+    border-top: 1px solid #ccc; /* Light gray */
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,142 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .user-profile-container {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .loading-message,
+  .error-message,
+  .no-articles {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .follow-button-container {
+    text-align: center;
+  }
+  
+  .follow-button,
+  .unfollow-button,
+  .edit-profile-button,
+  .delete-profile-button,
+  .confirm-delete-button,
+  .cancel-delete-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .edit-profile-button{
+    width: 18%;
+  }
+  
+  .edit-profile-link {
+    text-decoration: none;
+  }
+  
+  .user-details-container {
+    margin-top: 20px;
+  }
+  
+  .username,
+  .email,
+  .bio,
+  .follower-count,
+  .no-bio,
+  .no-profile-picture {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .profile-picture {
+    max-width: 30%;
+    height: auto;
+    border-radius: 4px;
+    margin: 0 auto;
+    border-radius: 50%;
+
+  }
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+  
+  
+
+  
+  .confirmation-dialog {
+    margin-top: 10px;
+  }
+  
+  .articles-heading {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .article-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .article-item1 {
+    background-color: #945353;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  
+  .article-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .article-title,
+  .article-content {
+    margin-bottom: 5px;
+  }
+
+  .article-content{
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .user-profile-container {
+      padding: 10px;
+    }
+  
+    .profile-heading {
+      font-size: 1.5rem;
+    }
+  
+    .loading-message,
+    .error-message,
+    .no-articles {
+      font-size: 0.9rem;
+    }
+  }
+  

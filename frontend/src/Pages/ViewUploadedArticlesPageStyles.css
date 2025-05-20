@@ -1,0 +1,100 @@
+
+  .article-list {
+    min-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the page title */
+    color: #fff;
+  }
+  
+  .loading-message,
+  .error-message,
+  .no-articles-message {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .article-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow articles to wrap to next line */
+    justify-content: center; /* Center align the articles */
+  }
+  
+  .article-item {
+    margin: 0 10px 20px; /* Add margin around each article */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: calc(33.33% - 20px); /* Adjust width based on number of articles per row */
+    max-width: 30vw; /* Maximum width of each article */
+    color: #000 !important;
+  }
+  
+  .article-link {
+    text-decoration: none;
+    color:#800000;
+  }
+  
+  .article-link:hover {
+    text-decoration: underline;
+  }
+  
+  .article-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .article-content {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #000 !important;
+
+  }
+  
+  .article-info {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    padding: 0.2em 0.5em;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .article-image {
+    max-width: 100%;
+    height: 15rem;
+    border-radius: 4px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .article-list {
+      padding: 10px;
+    }
+  
+    .page-title {
+      font-size: 1.5rem;
+    }
+  
+    .loading-message,
+    .error-message,
+    .no-articles-message {
+      font-size: 0.9rem;
+    }
+  
+    .article-item {
+      width: calc(50% - 20px); /* Two articles per row on smaller screens */
+    }
+  }
+  

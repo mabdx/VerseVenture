@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #2C0000, #000000);
+    color: #000000 !important; 
+  }
+  
+  .add-article-container {
+    width: 50%;
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    min-height: 90vh;
+
+  }
+  
+  .add-article-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #080808 !important; /* Maroon text color */
+  }
+  
+  .save-message {
+    margin-bottom: 20px;
+    color: green;
+  }
+  
+  .article-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #000000 !important; /* Black text color */
+  }
+  
+  .form-label-heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #000000 !important;
+
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #000000 !important;
+    width: 100%;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button,
+  .publish-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #660000 !important; /* Maroon */
+    color: #FFF;
+  }
+  
+  .publish-button {
+    background-color: #660000 !important; /* Black */
+    color: #FFF;
+  }
+  
+  .save-button:hover,
+  .publish-button:hover {
+    opacity: 0.8;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .add-article-container {
+      padding: 10px;
+    }
+    
+    .add-article-heading {
+      font-size: 1.5rem;
+    }
+  }
+  
